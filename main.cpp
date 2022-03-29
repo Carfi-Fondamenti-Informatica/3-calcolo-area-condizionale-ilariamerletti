@@ -18,6 +18,7 @@ int main() {
       case 2:
           A= (a*b);
           cout << (A)<< endl;
+      break;
   }
             return 0;
 }
