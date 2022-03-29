@@ -9,7 +9,7 @@ int main() {
   switch (opzione){
       case 0:
           A= ((a*b)/2);
-          cout << (Atriangolo)<< endl;
+          cout << (A)<< endl;
           break;
       case 1:
           A= (a*a);
