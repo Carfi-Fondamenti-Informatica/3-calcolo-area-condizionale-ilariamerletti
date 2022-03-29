@@ -1,6 +1,23 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-   return 0;
+  float a,b;
+  float A;
+  int opzione;
+  cin >> a>> b;
+  cin >> opzione;
+  switch (opzione){
+      case 0:
+          A= ((a*b)/2);
+          cout << (A)<< endl;
+          break;
+      case 1:
+          A= (a*a);
+          cout << (A) << endl;
+          break;
+      case 2:
+          A= (a*b);
+          cout << (A)<< endl;
+  }
+            return 0;
 }
