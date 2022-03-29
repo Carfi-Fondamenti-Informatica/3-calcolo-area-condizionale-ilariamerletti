@@ -9,7 +9,7 @@ int main() {
   switch (opzione){
       case 0:
           A= ((a*b)/2);
-          cout << (A)<< endl;
+          cout << (Atriangolo)<< endl;
           break;
       case 1:
           A= (a*a);
@@ -19,6 +19,8 @@ int main() {
           A= (a*b);
           cout << (A)<< endl;
       break;
+    default:
+      cout << "opzione non valida"<< endl;
   }
             return 0;
 }
